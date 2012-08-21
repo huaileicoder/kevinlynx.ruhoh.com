@@ -1,10 +1,10 @@
-title : Blog Title
-tagline: Blog Tagline
+title : Dev Docs
+tagline: mmo development documents
 author :
-  name : Firstname Lastname
-  email : blah@email.test
-  github : username
-  twitter : username
+  name : Kevin Lynx
+  email : kevinlynx@gmail.com
+  github : kevinlynx
+  twitter : kevinlynx
   feedburner : feedname
 
 navigation :
