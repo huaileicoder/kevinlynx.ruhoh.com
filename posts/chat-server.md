@@ -1,3 +1,9 @@
+--
+date: '2012-08-21'
+categories: mmo
+tags: [chat server]
+--
+
 # 聊天服务器设计
 
 ## 设计目标
