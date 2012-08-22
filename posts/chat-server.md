@@ -1,5 +1,5 @@
 ---
-title: '聊天服务器设计'
+title: '聊天服务器设计(一)'
 date: '2012-08-21'
 categories: mmo
 tags: [chat server]
