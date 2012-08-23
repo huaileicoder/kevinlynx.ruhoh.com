@@ -230,4 +230,7 @@ comments: false
 
     对client entity，修改其状态(modify entity)即可（目前状态有完整、未完整，可添加不可发言状态）。
 
+## 后期调整
+
+* GS entity的建立不再以GS主动请求而驱动，改为CS启动时根据配置直接创建好，GS连接CS后修改entity为连接状态，这样做的目的是将entity的行为验证统一。如果不这样做，GS entity建立时，因为对应的entity还没有建立，导致验证流程特殊化。这样，目前为止entity的行为验证仅有：group entity的建立（仅验证建立者是否是gs entity），entity的删除（验证是否是自己）。
 
